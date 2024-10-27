@@ -1,0 +1,15 @@
+definitions:
+  foo:
+    type: string
+  bar:
+    type: boolean
+  baz:
+    type: number
+  woo:
+    type: object
+    properties:
+      aa:
+        type: string
+      bb:
+        $ref: /definitions/woo
+        # Controllare ricorsione cicli
