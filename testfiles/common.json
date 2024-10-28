@@ -9,7 +9,7 @@
     "baz": {
       "type": "number"
     },
-    "woo": {
+    "clazz": {
       "type": "object",
       "properties": {
         "aa": {
