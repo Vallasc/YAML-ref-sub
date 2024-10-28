@@ -19,9 +19,6 @@
       "type": "string"
     },
     "woo": {
-      "$ref": "../common.json#/definitions/woo"
-    },
-    "woo2": {
       "$ref": "../common.json#/definitions/clazz"
     }
   }
