@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "clazz": {
+      "type": "object",
+      "properties": {
+        "foo": {
+          "$ref": "../common.json#/definitions/foo"
+        },
+        "bar": {
+          "$ref": "../common.json#/definitions/bar"
+        },
+        "baz": {
+          "$ref": "../common.json#/definitions/baz"
+        }
+      }
+    },
+    "bar": {
+      "type": "string"
+    },
+    "woo": {
+      "$ref": "../common.json#/definitions/woo"
+    }
+  }
+}

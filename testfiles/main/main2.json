@@ -1,1 +1,0 @@
-{"type":"object","properties":{"clazz":{"type":"object","properties":{"foo":{"type":"string"},"bar":{"type":"string"},"baz":{"type":"string"}}},"bar":{"type":"string"},"woo":{"type":"string"}}}
