@@ -11,5 +11,4 @@ definitions:
       aa:
         type: string
       bb:
-        $ref: "#/definitions/woo"
-        # Controllare ricorsione cicli
+        $ref: "#/definitions/foo"
