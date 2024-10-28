@@ -13,3 +13,36 @@ properties:
     type: string
   woo:
     $ref: ../common.yaml#/definitions/woo
+
+
+name: template
+params:
+  clazz:
+    type: object
+    properties:
+      foo:
+        $ref: ../common.yaml#/definitions/foo
+      bar:
+        $ref: ../common.yaml#/definitions/bar
+      baz:
+        $ref: ../common.yaml#/definitions/baz
+  bar:
+    type: string
+  woo:
+    $ref: ../common.yaml#/definitions/woo
+
+type: object
+properties:
+  clazz:
+    type: object
+    properties:
+      foo:
+        $ref: ../common.yaml#/definitions/foo
+      bar:
+        $ref: ../common.yaml#/definitions/bar
+      baz:
+        $ref: ../common.yaml#/definitions/baz
+  bar:
+    type: string
+  woo:
+    $ref: ../common.yaml#/definitions/woo
