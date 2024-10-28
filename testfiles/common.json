@@ -16,7 +16,7 @@
           "type": "string"
         },
         "bb": {
-          "$ref": "/definitions/woo"
+          "$ref": "#/definitions/woo"
         }
       }
     }
